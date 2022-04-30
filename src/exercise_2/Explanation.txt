@@ -1,0 +1,23 @@
+    Is it possible to run a java program that contains multiple classes with main methods?
+    If yes, how is the entry point to a program determined?
+
+    Answer:
+
+    yes is possible, this whole project was created to show this possibility.
+
+    First there is one condition for this to work, each main method has to be in a different class,
+    you can include many main methods in the same one.
+
+    The execution of the desired main method varies from IDE to IDE for example in Intellij is as simple as going
+    to the Run menu and selecting the option " Run..." then you can select the main method from the class you want to run,
+    the name of the class is not important, for example in this project there are many Main classes with a main method and
+    is possible to run all of them with those steps.
+
+    To change the main class that is being used in Neatbeans, go to the File menu and choose Project Properties.
+    This dialog offers all the options that can be changed in a NetBeans project.
+    Click the Run category. On this page, there is a main class option. Currently, it is set to Main (the Main.java class).
+    Clicking the Browse button on the right will bring up a popup with all the parent classes that are in the  project.
+    Choose the class you want to run. Click OK on the Project Properties dialog.
+
+    As shown is possible to run a java program that contains multiple classes with main methods, but the previous solutions
+    only work in a program that is still in production since they need the use of an IDE.
